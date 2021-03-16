@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name ="Testsuite" verbose="2" parallel="methods" thread-count="2">
+
+<test name= "Testname">
+<!-- <parameter name="Name" value="Kanith"></parameter> -->
+
+<classes>
+
+<class name= "FirstTestNg.paralleltesting"></class>
+
+
+
+</classes>
+
+
+
+</test>
+
+
+
+
+</suite>
+<!-- <class name="FirstTestNg.DependanciesManagement"></class>
+<class name="FirstTestNg.Startcar"></class>
+<class name="FirstTestNg.testsuite"></class> -->
+
+<!-- <groups>
+<run>
+<include name="Oneplus"></include>
+<include name= "Moto"></include>
+
+
+</run>
+
+
+</groups>
+
+
+<class name="FirstTestNg.Grouping"></class>  -->
